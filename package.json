@@ -1,0 +1,28 @@
+{
+  "name": "danimonster",
+  "version": "1.0.0",
+  "description": "A small example npm package with a greeting helper.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "example",
+    "npm",
+    "package"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
